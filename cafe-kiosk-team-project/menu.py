@@ -8,11 +8,11 @@ Menu: TypeAlias = dict[int, dict[str, int | str]]
 def get_menu() -> Menu:
     """카페 메뉴 정보를 반환한다."""
     return {
-        1: {"name": "아메리카노", "price": 3000},
-        2: {"name": "카페라테", "price": 4000},
-        3: {"name": "바닐라라테", "price": 4500},
-        4: {"name": "초코라테", "price": 4500},
-        5: {"name": "레몬에이드", "price": 5000},
+        1: {"name": "아메리카노", "price": 1500},
+        2: {"name": "카페라테", "price": 2500},
+        3: {"name": "바닐라라테", "price": 4000},
+        4: {"name": "초코라테", "price": 4000},
+        5: {"name": "딸기라테", "price": 4000},
     }
 
 
